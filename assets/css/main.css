@@ -719,6 +719,12 @@ input, select, textarea {
 			}
 
 		}
+		.sub-image {
+			border: 2px solid #ccc; /* Add a border to sub-images */
+			border-radius: 4px; /* Rounded corners */
+			margin: 10px; /* Add margin to create separation */
+			max-width: 100%; /* Ensure the image doesn't exceed its container */
+		  }
 
 /* List */
 
@@ -892,6 +898,87 @@ input, select, textarea {
 						}
 
 		}
+
+/* Project Styles */
+.project {
+	background-color: transparent; /* Remove any existing background color */
+	border: 1px solid #ffe2e2; /* Add a border */
+	border-radius: 10px; /* Rounded corners */
+	padding: 20px; /* Add padding to the project section */
+	margin-bottom: 20px; /* Add space between projects */
+	overflow: hidden; /* Ensure content within .project is contained */
+	text-align: center; /* Center-align the page heading only */
+	background: linear-gradient(to bottom, #333333, #2b8f9f); /* Gradient background */
+  }
+  
+  /* Page Heading Styles */
+  .page-heading {
+	font-size: 32px; /* Font size for the "Project" heading */
+	font-weight: bold; /* Bold font for emphasis */
+	color: #ADD8E6; /* Text color for the heading */
+	margin-bottom: 20px; /* Add space below the heading */
+	text-transform: uppercase; /* Convert text to uppercase */
+  }
+  
+  /* Project Content Styles */
+  .project-content {
+	display: flex;
+	flex-direction: column; /* Center-align items vertically */
+	align-items: center; /* Center-align items horizontally */
+	text-align: left; /* Left-align text within the container */
+  }
+  
+  /* Project Header Styles */
+  .project-header {
+	display: flex;
+	align-items: center;
+	margin-top: 5px; /* Add space below the project header */
+	justify-content: center; /* Center-align content horizontally */
+  }
+  
+  /* GitHub Icon Styles */
+  .project-header a.icon {
+	font-size: 18px;
+	color: #ffffff; /* Icon color */
+	text-decoration: none; /* Remove underline from the link */
+	transition: transform 0.3s ease;
+/* Add space to the right of the GitHub icon */
+  }
+
+  .project-header a.icon:hover {
+	transform: scale(1.5); /* Zoom in to 120% of the original size */
+  }
+  
+  /* Project Name Styles (Left-aligned) with Custom Font */
+  .project-name {
+	font-size: 12px; /* Font size for the project name */
+	color: #333; /* Text color for the project name */
+ /* Add space to the right of the project name */
+	text-align: center; /* Left-align the project name */
+	font-family: "Your Custom Font", sans-serif; /* Specify your custom font here */
+  }
+  
+
+  
+  /* Project Description Styles (Left-aligned) with Gradient Text Color */
+  .project-description {
+	font-size: 16px; /* Font size for the project description */
+	text-align: center; /* Left-align the project description */
+	font-weight: bold;
+	background: linear-gradient(to right, #73d9bf, #60b1bf); /* Gradient text color */
+	-webkit-background-clip: text; /* Apply the gradient to the text */
+	color: transparent; /* Set the text color to transparent */
+  }
+  
+
+  .project-image {
+	max-width: 100%;
+	height: auto;
+	border: 2px solid #000000; /* Add a border around the image */
+	border-radius: 5px; /* Rounded corners for the border */
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a shadow to the image */
+  }
+
 
 /* Icons */
 
@@ -1140,9 +1227,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
