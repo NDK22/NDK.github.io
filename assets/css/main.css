@@ -979,6 +979,12 @@ input, select, textarea {
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a shadow to the image */
   }
 
+  a[href^="mailto:"] {
+    text-decoration: none !important; /* Remove underline */
+    border: none !important; /* Remove any borders */
+    outline: none !important; /* Remove outline */
+}
+
 
 /* Style for Contact Section */
 /* Style for Contact Section */
