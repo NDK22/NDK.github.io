@@ -899,6 +899,104 @@ input, select, textarea {
 
 		}
 
+/* Work Styles */
+.work {
+	background-color: transparent; /* Remove any existing background color */
+	border: 1px solid #ffe2e2; /* Add a border */
+	border-radius: 10px; /* Rounded corners */
+	padding: 20px; /* Add padding to the work section */
+	margin-bottom: 20px; /* Add space between work sections */
+	overflow: hidden; /* Ensure content within .work is contained */
+	text-align: center; /* Center-align the page heading only */
+	background: linear-gradient(to bottom, #333333, #2b8f9f); /* Gradient background */
+  }
+  
+  /* Page Heading Styles */
+  .work .page-heading {
+	font-size: 32px; /* Font size for the "Work" heading */
+	font-weight: bold; /* Bold font for emphasis */
+	color: #ADD8E6; /* Text color for the heading */
+	margin-bottom: 20px; /* Add space below the heading */
+	text-transform: uppercase; /* Convert text to uppercase */
+  }
+  
+  /* Work Content Styles */
+  .work-content {
+	display: flex;
+	flex-direction: column; /* Center-align items vertically */
+	align-items: center; /* Center-align items horizontally */
+	text-align: left; /* Left-align text within the container */
+  }
+  
+  /* Job Title Styles */
+  .job-title {
+	font-size: 18px; /* Font size for the job title */
+	font-weight: bold; /* Bold font for emphasis */
+	margin-bottom: 5px;
+	text-align: center;  /* Add space below the job title */
+  }
+  
+  /* Job Duration Styles */
+  .job-duration {
+	font-size: 16px; /* Font size for the job duration */
+	margin-bottom: 10px; /* Add space below the job duration */
+  }
+  
+  /* Job Description Styles */
+  .job-description {
+	font-size: 16px; /* Font size for the job description */
+	text-align: left; /* Left-align text within the job description */
+  }
+  
+  /* GitHub Icon Styles */
+  .job-description a.icon {
+	font-size: 18px;
+	color: #ffffff; /* Icon color */
+	text-decoration: none; /* Remove underline from the link */
+	transition: transform 0.3s ease;
+	/* Add space to the right of the GitHub icon */
+  }
+  
+
+  
+  .work-image {
+	max-width: 100%;
+	height: auto;
+	border: 2px solid #000000; /* Add a border around the image */
+	border-radius: 5px; /* Rounded corners for the border */
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a shadow to the image */
+	margin-bottom: 30px;
+  }
+
+  /* Style for Social Icons */
+  .social-icons {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+  }
+  
+  .social-icons li {
+	margin-right: 10px;
+	transition: transform 0.3s ease, background-image 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icons a {
+	font-size: 24px;
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Increase size on hover for social icons */
+  .social-icons a:hover {
+	transform: scale(1.5);
+	color: #0056b3;
+  }
+  
+
 /* Project Styles */
 .project {
 	background-color: transparent; /* Remove any existing background color */
@@ -1484,18 +1582,21 @@ input, select, textarea {
 				display: none;
 			}
 
-		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
-		}
 
-			#header .logo .icon:before {
-				font-size: 2rem;
-			}
+#header .logo {
+  width: 5.5rem;
+  height: 5.5rem;
+  line-height: 5.5rem;
+  border: solid 1px #ffffff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
 
+#header .logo .icon:before {
+  font-size: 2rem;
+}
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
