@@ -980,6 +980,82 @@ input, select, textarea {
   }
 
 
+/* Style for Contact Section */
+/* Style for Contact Section */
+.contact {
+
+		background-color: transparent; /* Remove any existing background color */
+		border: 1px solid #ffe2e2; /* Add a border */
+		border-radius: 10px; /* Rounded corners */
+		padding: 20px; /* Add padding to the project section */
+		margin-bottom: 20px; /* Add space between projects */
+		overflow: hidden; /* Ensure content within .project is contained */
+		text-align: center; /* Center-align the page heading only */
+		background: linear-gradient(to bottom, #333333, #2b8f9f); /* Gradient background */
+}
+
+	/* Page Heading Styles */
+	.page-heading {
+		font-size: 32px;
+		font-weight: bold;
+		color: #ADD8E6;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+	}
+
+	/* Subheading Styles */
+	.subheading {
+		font-weight: bold; /* Remove margin between subheadings and paragraphs */
+	}
+
+	.subheading h3 {
+		font-size: 20px;
+		color: #000000;
+		margin-bottom: 1px;
+		/* Add a small margin between subheading titles and paragraphs */
+	}
+
+	.subheading p {
+		font-size: 16px;
+		color: #000000;
+		transition: color 0.3s ease, transform 0.3s ease;
+		margin-bottom: 20px; /* Add margin only between paragraphs */
+	}
+
+	.subheading p:hover {
+		color: #ffffff; /* Change the text color on hover */
+		transform: scale(1.2); /* Zoom in by 10% on hover */
+	}
+
+	/* Style for Social Icons */
+	.social-icons {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+	}
+
+	.social-icons li {
+		margin-right: 10px;
+		
+	}
+
+	.social-icons a {
+		font-size: 24px;
+		color: #ffffff;
+		text-decoration: none;
+		display: inline-block;
+		transition: color 0.3s ease, transform 0.3s ease;
+	}
+
+	/* Increase size on hover for social icons */
+	.social-icons a:hover {
+		transform: scale(1.5);
+		color: #0056b3;
+	}
+
+
 /* Icons */
 
 	ul.icons {
