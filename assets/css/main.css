@@ -1027,33 +1027,58 @@ input, select, textarea {
 		transform: scale(1.2); /* Zoom in by 10% on hover */
 	}
 
-	/* Style for Social Icons */
-	.social-icons {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-		display: flex;
-		justify-content: center;
-	}
+/* Style for Social Icons */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
 
-	.social-icons li {
-		margin-right: 10px;
-		
-	}
+.social-icons li {
+    margin-right: 10px;
+}
 
-	.social-icons a {
-		font-size: 24px;
-		color: #ffffff;
-		text-decoration: none;
-		display: inline-block;
-		transition: color 0.3s ease, transform 0.3s ease;
-	}
+/* Define custom properties for original icon colors */
+:root {
+    --linkedin-color: #0077B5;
+    --github-color: #333;
+    --instagram-color: #E4405F;
+}
 
-	/* Increase size on hover for social icons */
-	.social-icons a:hover {
-		transform: scale(1.5);
-		color: #0056b3;
-	}
+.social-icons a {
+    font-size: 24px;
+    color: var(--icon-color-white); /* Use a custom property for white color */
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Increase size and change color on hover for social icons */
+.social-icons a:hover {
+    transform: scale(1.5);
+    color: var(--icon-color-hover); /* Use a custom property for the hover color */
+}
+
+/* LinkedIn Icon Styles */
+.icon.brands.fa-linkedin {
+    --icon-color-white: #ffffff;
+    --icon-color-hover: var(--linkedin-color); /* Set the hover color to the original LinkedIn color */
+}
+
+/* GitHub Icon Styles */
+.icon.brands.fa-github {
+    --icon-color-white: #ffffff;
+    --icon-color-hover: var(--github-color); /* Set the hover color to the original GitHub color */
+}
+
+/* Instagram Icon Styles */
+.icon.brands.fa-instagram {
+    --icon-color-white: #ffffff;
+    --icon-color-hover: var(--instagram-color); /* Set the hover color to the original Instagram color */
+}
+
 
 
 /* Icons */
