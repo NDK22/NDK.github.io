@@ -918,6 +918,7 @@ input, select, textarea {
 	color: #ADD8E6; /* Text color for the heading */
 	margin-bottom: 20px; /* Add space below the heading */
 	text-transform: uppercase; /* Convert text to uppercase */
+	text-align: center;
   }
   
   /* Work Content Styles */
