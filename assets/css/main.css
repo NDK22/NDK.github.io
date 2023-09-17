@@ -726,6 +726,13 @@ input, select, textarea {
 			max-width: 100%; /* Ensure the image doesn't exceed its container */
 		  }
 
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* List */
 
 	ol {
