@@ -733,7 +733,7 @@ input, select, textarea {
 }
 .picture img {
     width: 200px; /* Set your desired width */
-    height: auto; /* Maintain aspect ratio */
+    height: 200px; /* Maintain aspect ratio */
 }
 
 
