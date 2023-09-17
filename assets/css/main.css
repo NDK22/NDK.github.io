@@ -732,7 +732,7 @@ input, select, textarea {
     align-items: center;
 }
 .picture img {
-    width: 300px; /* Set your desired width */
+    width: 100px; /* Set your desired width */
     height: auto; /* Maintain aspect ratio */
 }
 
