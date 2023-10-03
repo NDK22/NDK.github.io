@@ -1098,8 +1098,20 @@ input, select, textarea {
     outline: none !important; /* Remove outline */
 }
 
+/* Icon for Circle Info */
+.circle-info-icon:before {
+    content: "\f05a"; /* Unicode character for the fa-solid fa-circle-info icon */
+    font-size: 18px; /* Set the initial icon size */
+    color: #ffffff; /* Icon color */
+    text-decoration: none; /* Remove underline from the link */
+    transition: transform 0.3s ease; /* Add a transition effect for scaling */
+    margin-right: 5px; /* Add space to the right of the icon */
+}
 
-/* Style for Contact Section */
+/* Add a hover effect to scale the icon on hover */
+.circle-info-icon:hover {
+    transform: scale(1.5); /* Zoom in to 150% of the original size on hover */
+}
 /* Style for Contact Section */
 .contact {
 
