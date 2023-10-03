@@ -1099,6 +1099,12 @@ input, select, textarea {
 }
 
 /* Icon for Circle Info */
+.circle-info-icon {
+  text-decoration: none; /* Remove underline */
+  padding: 0; /* Remove padding */
+  border: none; /* Remove border */
+}
+
 .circle-info-icon:before {
     content: "\f05a"; /* Unicode character for the fa-solid fa-circle-info icon */
     font-size: 18px; /* Set the initial icon size */
