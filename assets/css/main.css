@@ -973,7 +973,16 @@ input, select, textarea {
 	transition: transform 0.3s ease;
 	/* Add space to the right of the GitHub icon */
   }
-  
+
+  .job-description ul {
+    margin-top: 0; /* Remove top margin for nested ul */
+    margin-bottom: 10px; /* Add some bottom margin for spacing */
+    padding-left: 20px; /* Add left padding for indentation */
+   }
+
+  .job-description ul ul {
+    padding-left: 0; /* Remove padding for further nesting */
+  }
 
   
   .work-image {
