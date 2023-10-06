@@ -977,12 +977,12 @@ input, select, textarea {
   .job-description ul {
     margin-top: 0; /* Remove top margin for nested ul */
     margin-bottom: 10px; /* Add some bottom margin for spacing */
-    padding-left: 20px; /* Add left padding for indentation */
-    list-style-type: none;
+    padding-left: 10px; /* Add left padding for indentation */
+    list-style-type: circle;
    }
 
   .job-description ul ul {
-    padding-left: 0; /* Remove padding for further nesting */
+    padding-left: 40px; /* Remove padding for further nesting */
     list-style-type: disc;
   }
 
