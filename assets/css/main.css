@@ -982,7 +982,7 @@ input, select, textarea {
    }
 
   .job-description ul ul {
-    padding-left: 40px; /* Remove padding for further nesting */
+    padding-left: 20px; /* Remove padding for further nesting */
     list-style-type: disc;
   }
 
