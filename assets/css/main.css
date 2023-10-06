@@ -944,12 +944,13 @@ input, select, textarea {
   }
   
   /* Job Title Styles */
-  .job-title {
-	font-size: 18px; /* Font size for the job title */
-	font-weight: bold; /* Bold font for emphasis */
-	margin-bottom: 5px;
-	text-align: center;  /* Add space below the job title */
-  }
+.job-title {
+    font-size: 18px; /* Font size for the job title */
+    font-weight: bold; /* Bold font for emphasis */
+    margin-bottom: 5px;
+    text-align: center; /* Add space below the job title */
+    color: #D5D6EA; /* Add your preferred color code here */
+}
   
   /* Job Duration Styles */
   .job-duration {
@@ -959,8 +960,9 @@ input, select, textarea {
   
   /* Job Description Styles */
   .job-description {
-	font-size: 16px; /* Font size for the job description */
+	font-size: 14px; /* Font size for the job description */
 	text-align: left; /* Left-align text within the job description */
+	margin-bottom: 5px;
   }
   
   /* GitHub Icon Styles */
