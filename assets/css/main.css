@@ -1628,9 +1628,6 @@ input, select, textarea {
 				display: none;
 			}
 
-.logo {
-  margin-top: 20px; /* Adjust the margin-top value as needed */
-}
 #header .logo {
   width: 5.5rem;
   height: 5.5rem;
