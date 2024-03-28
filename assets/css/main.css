@@ -1646,9 +1646,10 @@ input, select, textarea {
 	padding: 0; /* Reset padding */
   }
 
-/* #header .logo img {
-margin-top: -32px; 
-} */
+#header .logo img {
+	  width: 10.5rem; /* Adjust the width as needed */
+	  height: auto; /* Automatically adjust height to maintain aspect ratio */
+}
 
 #header .logo a:hover img {
 transform: scale(1.2); /* Increase the scale to 120% on hover */
