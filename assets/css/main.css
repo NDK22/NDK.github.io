@@ -1635,12 +1635,24 @@ input, select, textarea {
   border: solid 1px #ffffff;
   border-radius: 100%;
   display: flex;
-  justify-content: bottom; /* Center horizontally */
-  align-items: flex-end; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Center vertically */
+  text-decoration: none;
 }
 
 #header .logo a {
-  text-decoration: none;
+	text-decoration: none; /* Remove underline from the link */
+	border: none; /* Remove any borders */
+	padding: 0; /* Reset padding */
+  }
+
+#header .logo img {
+margin-top: -32px; /* Adjust the margin to move the image up */
+}
+
+#header .logo a:hover img {
+transform: scale(1.2); /* Increase the scale to 120% on hover */
+transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
 
 #header .logo .icon:before {
