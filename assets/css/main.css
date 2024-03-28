@@ -1638,7 +1638,7 @@ input, select, textarea {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  margin-top: 50px; 
+  margin-top: 500px; 
 }
 
 #header .logo .icon:before {
