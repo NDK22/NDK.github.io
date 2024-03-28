@@ -1804,7 +1804,7 @@ transition: transform 0.3s ease; /* Add a smooth transition effect */
 				line-height: 0rem;
 			}
 			#header .logo img {
-				  width: 4.5rem; /* Adjust the width as needed */
+				  width: 10.5rem; /* Adjust the width as needed */
 				  height: auto; /* Automatically adjust height to maintain aspect ratio */
 			}
 			
