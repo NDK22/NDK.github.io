@@ -1636,7 +1636,7 @@ input, select, textarea {
   border-radius: 100%;
   display: flex;
   justify-content: center; /* Center horizontally */
-  align-items: flex-start; /* Center vertically */
+  align-items: center; /* Center vertically */
   text-decoration: none;
 }
 
