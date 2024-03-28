@@ -1631,7 +1631,7 @@ input, select, textarea {
 #header .logo {
   width: 5.5rem;
   height: 5.5rem;
-  line-height: 5.5rem;
+  line-height: 0rem;
   border: solid 1px #ffffff;
   border-radius: 100%;
   display: flex;
@@ -1646,9 +1646,9 @@ input, select, textarea {
 	padding: 0; /* Reset padding */
   }
 
-#header .logo img {
-margin-top: -32px; /* Adjust the margin to move the image up */
-}
+/* #header .logo img {
+margin-top: -32px; 
+} */
 
 #header .logo a:hover img {
 transform: scale(1.2); /* Increase the scale to 120% on hover */
