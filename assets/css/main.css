@@ -1629,14 +1629,14 @@ input, select, textarea {
 			}
 
 #header .logo {
-  width: 7.5rem;
-  height: 7.5rem;
-  line-height: 7.5rem;
+  width: 5.5rem;
+  height: 5.5rem;
+  line-height: 5.5rem;
   border: solid 1px #ffffff;
-  border-radius: 120%;
+  border-radius: 100%;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: bottom; /* Center horizontally */
+  align-items: flex-end; /* Center vertically */
 }
 
 #header .logo .icon:before {
