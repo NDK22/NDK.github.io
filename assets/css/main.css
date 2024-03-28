@@ -1796,12 +1796,21 @@ transition: transform 0.3s ease; /* Add a smooth transition effect */
 					height: calc(2rem + 1px);
 				}
 
-			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
-				line-height: 4.75rem;
-			}
-
+			
+				#header .logo {
+					width: 5.5rem;
+					height: 5.5rem;
+					line-height: 5.5rem;
+				}
+				#header .logo img {
+					margin-top: -16px; /* Adjust the margin for smaller screens */
+				  }
+				}
+				
+				#header .logo a:hover img {
+				  transform: scale(1.2); /* Increase the scale to 120% on hover */
+				  transition: transform 0.3s ease; /* Add a smooth transition effect */
+				}
 				#header .logo .icon:before {
 					font-size: 1.75rem;
 				}
