@@ -1961,6 +1961,11 @@ input, select, textarea {
 			#main article {
 				padding: 3rem 1.5rem 0.5rem 1.5rem ;
 			}
+		@media screen and (min-width: 768px) and (max-width: 1024px) {
+			
+		         #main article {
+		                 max-width: 60rem; /* Adjusted width for laptops */
+		        }
 
 		}
 
