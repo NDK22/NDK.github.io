@@ -1804,10 +1804,7 @@ transition: transform 0.3s ease; /* Add a smooth transition effect */
 				line-height: 5.5rem;
 			}
 			
-			#header .logo img {
-				margin-top: -36px; /* Adjust the margin for smaller screens */
-			  }
-
+			
 				#header .logo .icon:before {
 					font-size: 1.75rem;
 				}
