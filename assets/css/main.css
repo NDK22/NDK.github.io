@@ -1639,6 +1639,10 @@ input, select, textarea {
   align-items: flex-end; /* Center vertically */
 }
 
+#header .logo a {
+  text-decoration: none;
+}
+
 #header .logo .icon:before {
   font-size: 2rem;
 }
