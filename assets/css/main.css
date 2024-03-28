@@ -1805,7 +1805,7 @@ transition: transform 0.3s ease; /* Add a smooth transition effect */
 			}
 			
 			#header .logo img {
-				margin-top: -16px; /* Adjust the margin for smaller screens */
+				margin-top: -32px; /* Adjust the margin for smaller screens */
 			  }
 
 				#header .logo .icon:before {
