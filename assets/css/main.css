@@ -1803,7 +1803,10 @@ transition: transform 0.3s ease; /* Add a smooth transition effect */
 				height: 5.5rem;
 				line-height: 0rem;
 			}
-			
+			#header .logo img {
+				  width: 4.5rem; /* Adjust the width as needed */
+				  height: auto; /* Automatically adjust height to maintain aspect ratio */
+			}
 			
 				#header .logo .icon:before {
 					font-size: 1.75rem;
