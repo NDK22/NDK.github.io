@@ -924,7 +924,15 @@ input, select, textarea {
 	text-align: center; /* Center-align the page heading only */
 	background: linear-gradient(to bottom, #333333, #2b8f9f); /* Gradient background */
   }
-  
+
+/* Adjust the width for larger screens */
+@media (min-width: 1024px) {
+  .work {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
   /* Page Heading Styles */
   .work .page-heading {
 	font-size: 32px; /* Font size for the "Work" heading */
